@@ -7,7 +7,7 @@ public class Coins : MonoBehaviour
     public int value;
 
 
-    // Sonido
+    // Sonido, en este caso no se utiliza. El sonido se le ha puesto al script de player, porque si se reproduce el sonido en el OnTriggerEnter, reproduce el sonido hasta que el objeto se elimina
     [SerializeField]
     private AudioSource nom;
 
