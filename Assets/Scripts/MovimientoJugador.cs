@@ -89,7 +89,7 @@ public class MovimientoJugador : MonoBehaviour
         {
             animator.SetBool("hurt", true);
             StartCoroutine(RecuperarseDespuesDeDelay(2f));
-            Debug.Log("funciona");
+           // Debug.Log("funciona");
         }
     }
 
